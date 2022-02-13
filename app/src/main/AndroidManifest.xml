@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab5_nearby">
+        <meta-data
+            android:name="com.google.android.nearby.messages.API_KEY"
+            android:value="AIzaSyAt_LzKtEE-VQ_wmlwXSKlYZQCk7zlDa9A" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
